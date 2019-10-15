@@ -1,10 +1,5 @@
 # The *python-docx* module for Sublime Text packages
 
-**_Note that this dependency has not yet been submitted to the Package Control
-dependencies repository; thus, it is not actually available for use at this
-time. Once it has been submitted and accepted as a Package Control dependency,
-this message will be removed._**
-
 ![tag](https://img.shields.io/github/tag/writeml/sublime-docx.svg)
 ![pypi](https://img.shields.io/pypi/v/python-docx.svg)
 ![build](https://api.travis-ci.org/python-openxml/python-docx.svg?branch=master)
@@ -28,7 +23,7 @@ following contents:
    "*" : {
       ">=3000" : [
          "lxml",
-         "docx"
+         "python-docx"
       ]
    }
 }
