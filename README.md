@@ -35,15 +35,15 @@ following contents:
 ```
 
 Note that *python-docx* requires the [*lxml*](https://pypi.org/project/lxml)
-module, which is hosted as a Package Control dependency
-[here](https://github.com/eerohele/sublime-lxml). Be aware also that the *lxml*
+module, which is hosted as its own Package Control dependency
+[here](https://github.com/eerohele/sublime-lxml). Be aware also that this
 dependency may have its own platform/version restrictions.
 
-Once you have your `dependencies.json` file in place, you can run the
-`Package Control: Satisfy Dependencies` command in Sublime Text to make Package
-Control install the dependencies for you locally. Then, once you have all
-necessary dependencies available locally, you can use any *python-docx* `import`
-directives you may need, such as `from docx import Document`.
+Once you have your `dependencies.json` file in place, you can then run the
+`Package Control: Satisfy Dependencies` command in Sublime Text, which will tell
+Package Control to download and install these dependencies. Once that's
+finished, you will then be able to use any *python-docx* `import` directives you
+may need, such as `from docx import Document`.
 
 See also:
 [Documentation on Dependencies](https://packagecontrol.io/docs/dependencies)
