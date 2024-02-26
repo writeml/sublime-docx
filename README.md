@@ -10,9 +10,12 @@
 > their official release packages at PyPI.
 >
 > It is highly recommended that you update your Sublime Text plugins to target
-> the most recent version of Python possible (v3.8 as of Feb 2024). See
-> [the Sublime Text API - Python Version documentation](https://www.sublimetext.com/docs/api_environments.html#python-version)
-> for more (and the most recent) infomation.
+> the most recent version of Python possible (v3.8 as of Feb 2024), so you can
+> use the most recent version of this library possible. See the
+> [Sublime Text API - Python Version](https://www.sublimetext.com/docs/api_environments.html#python-version)
+> documentation for more (and the most recent) infomation about which versions
+> of Python are supported by Sublime Text, and how to specify which version your
+> plugin supports.
 
 This is the *python-docx* module bundled as a
 [Package Control](https://packagecontrol.io) dependency for use by
@@ -43,6 +46,11 @@ Note that *python-docx* requires the [*lxml*](https://pypi.org/project/lxml)
 module, which is hosted as its own Package Control dependency
 [here](https://github.com/eerohele/sublime-lxml). Be aware also that this
 dependency may have its own platform/version restrictions.
+
+> [!NOTE]
+> As of Package Control v4, all versions of the *lxml* library have been pointed
+> directly to the official release packages at PyPI, effectively deprecating the
+> above-linked repository.
 
 Once you have your `dependencies.json` file in place, you can then run the
 `Package Control: Satisfy Dependencies` command in Sublime Text, which will tell
