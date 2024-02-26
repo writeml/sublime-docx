@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: python-docx
-Version: 0.8.10
+Version: 0.8.11
 Summary: Create and update Microsoft Word .docx files.
 Home-page: https://github.com/python-openxml/python-docx
 Author: Steve Canny
@@ -42,6 +42,12 @@ Description: .. image:: https://travis-ci.org/python-openxml/python-docx.svg?bra
         
         Release History
         ---------------
+        
+        0.8.11 (2021-05-15)
+        +++++++++++++++++++
+        
+        - Small build changes and Python 3.8 version changes like collections.abc location.
+        
         
         0.8.10 (2019-01-08)
         +++++++++++++++++++
